@@ -5,6 +5,7 @@ A simple Flask application containerized with Docker and configured for CI/CD wi
 ## Project Overview
 
 This repository contains a simple Flask API that demonstrates:
+
 - Basic Flask application structure
 - Docker containerization
 - Automated CI/CD with GitHub Actions
@@ -19,10 +20,10 @@ This repository contains a simple Flask API that demonstrates:
 
 ## API Endpoints
 
-| Endpoint | Method | Description                  |
-|----------|--------|------------------------------|
-| `/`      | GET    | Returns a welcome message     |
-| `/health`| GET    | Health check endpoint         |
+| Endpoint  | Method | Description               |
+| --------- | ------ | ------------------------- |
+| `/`       | GET    | Returns a welcome message |
+| `/health` | GET    | Health check endpoint     |
 
 ## Local Development
 
@@ -88,6 +89,7 @@ Before the workflow will work properly, you need to add the following secrets to
 2. `DOCKERHUB_TOKEN`: A DockerHub access token (not your password)
 
 To add these secrets:
+
 1. Go to your GitHub repository
 2. Click on "Settings" → "Secrets and variables" → "Actions"
 3. Click "New repository secret" and add each secret
@@ -95,4 +97,7 @@ To add these secrets:
 ## Docker Image
 
 The Docker image is available on DockerHub at:
+
+```
+
 ```
