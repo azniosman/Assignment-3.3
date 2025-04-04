@@ -19,10 +19,10 @@ This repository contains a simple Flask API that demonstrates:
 
 ## API Endpoints
 
-| Endpoint | Method | Description |
-|----------|--------|-------------|
-| `/` | GET | Returns a welcome message |
-| `/health` | GET | Health check endpoint |
+| Endpoint | Method | Description                  |
+|----------|--------|------------------------------|
+| `/`      | GET    | Returns a welcome message     |
+| `/health`| GET    | Health check endpoint         |
 
 ## Local Development
 
@@ -95,11 +95,4 @@ To add these secrets:
 ## Docker Image
 
 The Docker image is available on DockerHub at:
-```
-your-dockerhub-username/flask-sample:latest
-```
-
-To pull the image:
-```bash
-docker pull your-dockerhub-username/flask-sample:latest
 ```
